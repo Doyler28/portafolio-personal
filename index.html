@@ -1,32 +1,92 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio de Doyler Sanchez</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- FontAwesome -->
     <style>
-        body {
-            font-family: Arial, sans-serif; /* Establece la fuente para la página */
-            margin: 40px;
-            background-color: #f4f4f4; /* Color de fondo de la página */
-            color: #333; /* Color del texto */
+
+        .social-icons a {
+            margin: 0 10px;
+            color: #333; /* Color de los íconos */
+        }
+        .social-icons a:hover {
+            color: #007BFF; /* Color cuando el mouse pasa sobre el ícono */
+        }
+    
+        body                
+        {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
         }
         header, footer {
-            text-align: center; /* Centra el texto del encabezado y pie de página */
-            padding: 10px 20px; /* Añade padding alrededor del texto */
-            background-color: #e8e8e8; /* Color de fondo para encabezado y pie de página */
+            text-align: center;
+            padding: 20px 10px;
+            background-color: #e8e8e8;
         }
         section {
-            background-color: white; /* Fondo blanco para la sección de contenido */
-            margin: 20px auto; /* Margen automático para centrar */
-            width: 80%; /* Ancho del 80% para la sección */
-            padding: 20px; /* Espaciado interno */
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra ligera para dar profundidad */
+            background-color: white;
+            margin: 20px auto;
+            width: 80%;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
         h1, h2 {
-            color: #4a4a4a; /* Color del texto para los títulos */
+            color: #4a4a4a;
+        }
+        .content {
+            margin-top: 20px;
+        }
+
+        .social-icons {
+            display: flex; /* Establece Flexbox */
+            justify-content: center; /* Centra los ítems horizontalmente */
+            align-items: center; /* Centra los ítems verticalmente */
+            height: 60vh; /* Altura total de la ventana del navegador */
+            margin: 0;
+            padding: 0;
+            list-style: none; /* Remueve los estilos de lista */
+        }
+        .social-icons a {
+            margin: 0 20px;
+            font-size: 2em; /* Ajusta el tamaño de los íconos */
+            color: #333; /* Color de los íconos */
+        }
+        .social-icons a:hover {
+            color: #007BFF; /* Color al pasar el mouse */
+        }
+        .content-center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .whatsapp-link-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            margin-top: 20px;
+        }
+        .whatsapp-link {
+            text-decoration: none;
+            color: #25D366;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #effffe;
         }
     </style>
+   
+
 </head>
 <body>
     <header>
@@ -34,13 +94,65 @@
     </header>
     <section>
         <h2>Sobre mí</h2>
+        <img src="https://images.unsplash.com/photo-1473830394358-91588751b241?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHBlcnNvbmF8ZW58MHx8MHx8fDA%3D" alt="Doyler Sanchez en un evento profesional" width="300" height="200">
+        
         <p>
-            Hola, soy Doyler Sanchez. Bienvenido a mi portafolio web. Soy un Ingeniero Industrial y de Sistemas, con experiencia en la industria del transporte terrestre de productos refrigerados. Actualmente trabajo en una empresa líder en el sector, gestionando y optimizando los procesos para asegurar la entrega eficiente y segura de productos.
+            Hola, soy Doyler Sanchez. Bienvenido a mi portafolio web. Soy Ingeniero Industrial y de Sistemas, especializado en la gestión y optimización de procesos en la industria del transporte terrestre de productos refrigerados. Con experiencia en análisis de datos y mejora continua, me dedico a mejorar la eficiencia operativa y la satisfacción del cliente.
         </p>
     </section>
+    <section>
+        <h2>Experiencia Profesional</h2>
+        <p>Empresa de Transporte Terrestre de Productos Refrigerados</p>
+        <ul>
+            <li>Gestión de operaciones logísticas y supervisión de la cadena de suministro.</li>
+            <li>Implementación de soluciones tecnológicas para el rastreo y monitoreo de envíos.</li>
+            <li>Desarrollo y ejecución de estrategias de optimización de costos y tiempos de entrega.</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Educación</h2>
+        <p>Universidad de Ingeniería y Tecnología</p>
+        <ul>
+            <li>Grado en Ingeniería Industrial y de Sistemas, 20XX.</li>
+            <li>Cursos destacados: Gestión de Operaciones, Sistemas de Información, Logística y Cadena de Suministro.</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Análisis de Datos y Gestión de Bases de Datos.</li>
+            <li>Optimización de Procesos y Control de Calidad.</li>
+            <li>Software de Planificación de Recursos Empresariales (ERP) y Herramientas de Gestión de Proyectos.</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Proyectos y Logros</h2>
+        <ul>
+            <li>Rediseño del sistema de distribución que resultó en una reducción del 20% en costos logísticos.</li>
+            <li>Implementación exitosa de un sistema ERP que mejoró el rendimiento operacional en un 30%.</li>
+        </ul>
+    </section>
     <footer>
-        <p>Contacto: doyler.sanchez@example.com</p>
+        <p>Contacto: doyler243@gmail.com.com</p>
+        <p>Número: 957883362</p>
     </footer>
+
+    <a href="https://wa.me/51957883362?text=Hola estoy intersado en tus servicios." target="_blank">Contactarme vía WhatsApp</a>
+
+    <div class="social-icons">
+        <a href="https://www.linkedin.com/in/tu-usuario" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://twitter.com/tu-usuario" target="_blank">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.facebook.com/tu-usuario" target="_blank">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/tu-usuario" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
 </body>
 </html>
 
